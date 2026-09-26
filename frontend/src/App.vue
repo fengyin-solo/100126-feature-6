@@ -11,7 +11,7 @@
     <main class="app-main">
       <header class="app-head">
         <span class="head-desc">面向冷链运输全程温控、车辆调度、门到门配送、温度异常处置、签收回单与运力结算的冷链运输管理后台。</span>
-        <span class="head-user">当前值班：{{ store.operator }} · {{ store.shiftLabel }}</span>
+        <span class="head-user">当前值班：{{ store.operator }} · {{ store.role }} · {{ store.shiftLabel }}</span>
       </header>
       <RouterView />
     </main>
